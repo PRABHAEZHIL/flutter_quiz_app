@@ -45,7 +45,7 @@ class QuestionsSummary extends StatelessWidget {
                           data['question'] as String,
                           textAlign: TextAlign.left,
                           style: GoogleFonts.lato(
-                            color: Color.fromARGB(255, 7, 202, 163),
+                            color: const Color.fromARGB(255, 7, 202, 163),
                             fontSize: 14,
                             fontWeight: FontWeight.bold,
                           ),
@@ -56,7 +56,7 @@ class QuestionsSummary extends StatelessWidget {
                         Text(data['user_answer'] as String,
                             textAlign: TextAlign.left,
                             style: GoogleFonts.lato(
-                              color: Color.fromARGB(255, 195, 160, 194),
+                              color: const Color.fromARGB(255, 195, 160, 194),
                               fontSize: 14,
                               fontWeight: FontWeight.bold,
                             )),
@@ -66,7 +66,7 @@ class QuestionsSummary extends StatelessWidget {
                         Text(data['correct_answer'] as String,
                             textAlign: TextAlign.left,
                             style: GoogleFonts.lato(
-                              color: Color.fromRGBO(151, 132, 245, 1),
+                              color: const Color.fromRGBO(151, 132, 245, 1),
                               fontSize: 14,
                               fontWeight: FontWeight.bold,
                             ))
